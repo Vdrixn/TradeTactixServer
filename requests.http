@@ -1,0 +1,17 @@
+# crypto_listings: Obtener la lista de criptomonedas (por defecto página 1, límite 10)
+GET http://127.0.0.1:8080/crypto_listings
+
+# crypto_listings: Obtener la lista de criptomonedas (página 4, límite 15)
+GET http://127.0.0.1:8080/crypto_listings?page=4&limit=15
+
+# crypto_listings: Obtener el listado de símbolos de criptomonedas
+GET http://127.0.0.1:8080/api/crypto-symbols
+
+# stocks_listings: Obtener la lista de acciones (por defecto página 1, límite 10)
+GET http://127.0.0.1:8080/stocks_listings
+
+# stocks_listings: Obtener el listado de símbolos de acciones
+GET http://127.0.0.1:8080/api/stock-symbols
+
+# forex_listings: Obtener el listado de símbolos de pares de divisas
+GET http://127.0.0.1:8080/api/forex-symbols
